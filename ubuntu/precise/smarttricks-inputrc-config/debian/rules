@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+# Core (check http://debathena.mit.edu/config-packages for more information)
+%:
+	dh $@ --with=config-package
+
+# Prevent dh_installdeb of treating files in /etc as configuration files
+override_dh_installdeb:
+	dh_installdeb
+	rm debian/*/DEBIAN/conffiles

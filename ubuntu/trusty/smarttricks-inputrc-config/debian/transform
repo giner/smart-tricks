@@ -1,0 +1,1 @@
+/etc/inputrc.smarttricks </usr/share/readline/inputrc sed -e 's/^# \(.*: history-search-.*\)/\1/'
