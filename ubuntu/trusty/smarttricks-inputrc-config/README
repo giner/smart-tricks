@@ -1,0 +1,2 @@
+# Configured by this package:
+- readline (update /etc/inputrc to make "page up" and "page down" search through history)

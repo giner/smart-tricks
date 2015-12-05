@@ -1,0 +1,13 @@
+Source: smarttricks-inputrc-config
+Section: misc
+Priority: optional
+Maintainer: Stanislav German-Evtushenko <ginermail@gmail.com>
+Build-Depends: debhelper, config-package-dev (>= 5.0~), readline-common
+
+Package: smarttricks-inputrc-config
+Architecture: all
+Depends: ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Smart Tricks: customized /etc/inputrc
+ This package provides customized /etc/inputrc.
