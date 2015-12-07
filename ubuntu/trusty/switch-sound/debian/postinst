@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ "$1" = "configure" ]; then
+cat << 'EOF'
+
+Please update /etc/pulse/default.pa before using switch-sound:
+  sudo sed -i 's/^\(load-module module-stream-restore\)$/\1 restore_device=false/' /etc/pulse/default.pa
+  pulseaudio -k
+
+Read more: http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/DefaultDevice
+
+EOF
+fi

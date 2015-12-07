@@ -1,0 +1,11 @@
+Source: smarttricks-admin-tools
+Section: misc
+Priority: optional
+Maintainer: Stanislav German-Evtushenko <ginermail@gmail.com>
+Build-Depends: debhelper
+
+Package: smarttricks-admin-tools
+Depends: mc, htop, nmap, dstat, sysstat, screen, pwgen, ipcalc, vim
+Architecture: all
+Description: This is a meta package to install some useful tools
+ This is a meta package to install some useful tools.

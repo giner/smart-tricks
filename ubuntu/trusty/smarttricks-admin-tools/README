@@ -1,0 +1,10 @@
+# This is a meta package which installs:
+- mc
+- htop
+- nmap
+- dstat
+- sysstat
+- screen
+- pwgen
+- ipcalc
+- vim
