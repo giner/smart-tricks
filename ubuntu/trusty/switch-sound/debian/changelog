@@ -1,0 +1,11 @@
+switch-sound (20151207-00~trusty) trusty; urgency=medium
+
+  * Cosmetic changes.
+
+ -- Stanislav German-Evtushenko <ginermail@gmail.com>  Mon, 07 Dec 2015 00:40:49 +0900
+
+switch-sound (20140108-17) lucid precise quantal raring saucy trusty; urgency=low
+
+  * Initial release.
+
+ -- Stanislav German-Evtushenko <ginermail@gmail.com>  Wed, 08 Jan 2014 17:32:52 +0400
