@@ -1,3 +1,9 @@
+libunity9-disable-online-search (20151210-01~trusty) trusty; urgency=medium
+
+  * Fix dependencies.
+
+ -- Stanislav German-Evtushenko <ginermail@gmail.com>  Thu, 10 Dec 2015 01:57:18 +0900
+
 libunity9-disable-online-search (20151207-00~trusty) trusty; urgency=medium
 
   * Cosmetic changes.

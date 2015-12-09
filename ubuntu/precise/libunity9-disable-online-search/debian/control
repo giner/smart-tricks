@@ -5,7 +5,7 @@ Maintainer: Stanislav German-Evtushenko <ginermail@gmail.com>
 Build-Depends: debhelper
 
 Package: libunity9-disable-online-search
-Depends: libunity9
+Depends: ${misc:Depends}
 Architecture: all
 Description: Change default privacy settings for Dash Search in Unity
  This package overrides Unity settings and configures online search results disabled
