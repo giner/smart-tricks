@@ -8,3 +8,8 @@
 override_dh_installdeb:
 	dh_installdeb
 	rm debian/*/DEBIAN/conffiles
+
+# Ensure transform scripts being executable
+override_dh_configpackage:
+	chmod +x debian/transform_*.smarttricks
+	dh_configpackage

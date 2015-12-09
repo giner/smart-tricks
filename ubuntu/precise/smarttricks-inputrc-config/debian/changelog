@@ -1,3 +1,11 @@
+smarttricks-inputrc-config (20151210-01~precise) precise; urgency=medium
+
+  * smarttricks-admin-tools:
+    1) add a comment to /etc/inputrc
+    2) cosmetic changes to deb-source
+
+ -- Stanislav German-Evtushenko <ginermail@gmail.com>  Thu, 10 Dec 2015 01:13:00 +0900
+
 smarttricks-inputrc-config (20151206-01~precise) precise; urgency=medium
 
   * Initial release.
